@@ -1,0 +1,12 @@
+POST http://localhost:8081/events
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAZ21haWwuY29tIiwiZXhwIjoxNzM4MjA5NjY3LCJ1c2VySWQiOjF9.FxHA84jeHl2Gl_WxIEa_ISKe1DeTyhA8HtY8J1Ax6_U
+# There must be a line b/w header and body 
+
+{
+    "name":"Shashi k",
+    "description":"event description!!",
+    "location":"event location!!",
+    "dateTime":"2025-01-26T22:07:00.000Z"
+    
+}
